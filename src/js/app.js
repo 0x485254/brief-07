@@ -74,6 +74,7 @@ function playGame() {
   // Boucle principale du jeu
   while (currentRound < maxRound) {
     const robotChoice = getRobotChoice();
+    console.log(robotChoice);
 
     // Demander le choix de l'utilisateur
     const promptResponse = prompt("Ton choix ? (pierre, feuille, ciseaux)");
